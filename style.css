@@ -534,7 +534,7 @@ About
 }
 
 .text-lg {
-  font-size: 52px;
+  font-size: 45px;
   line-height: 1.1;
 }
 
@@ -551,6 +551,12 @@ About
 }
 
 @media (max-width: 767px) {
+  .text-lg {
+	font-size: 35px;
+  }
+}
+
+@media (max-width: 1000px) {
   .text-lg {
 	font-size: 35px;
   }
