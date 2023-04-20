@@ -1108,6 +1108,35 @@ Countdown
 }
 
 
+/* CEED QR Code */
+#ceed-qr{
+  width: 60%;
+  max-width: 400px;
+  display: block;
+  margin: auto;
+  padding: 1rem;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 400px) {
+  #ceed-qr {
+	width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  #ceed-qr {
+	width: 95%;
+  }
+}
+
+@media (max-width: 767px) {
+  #ceed-qr {
+	width: 80%;
+  }
+}
+
+
 /*-------------------------------
 footer
 -------------------------------*/
