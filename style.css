@@ -815,6 +815,7 @@ Features
 Speakers
 -------------------------------*/
 #speakers-section{
+  padding-top: 45px;
   padding-bottom: 0;
 }
 #speakers-section > div > div.row.section-heading{
